@@ -6,25 +6,31 @@
     <title>MediQuills - Empowering Youth, Advancing Vaccines</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body >
     <!-- Header -->
-    <header class="header">
+        <header class="header">
         <div class="header-container">
             <div class="logo">
                 <div class="logo-placeholder">
                     <img src="Images/MediQuillsLogo.png">
-                </div>
-            </div>
+                </div>            </div>
             <nav class="nav">
                 <ul class="nav-list">
-                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
                     <li><a href="about.html" class="nav-link">About Us</a></li>
                     <li><a href="team.html" class="nav-link">Our Team</a></li>
                     <li><a href="chapter.html" class="nav-link">Start a Chapter</a></li>
                     <li><a href="gallery.html" class="nav-link">Gallery</a></li>
                     <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
-                    <li><a href="donate.html" class="nav-link">Donate</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    <li><a href="news.html" class="nav-link active">News</a></li>
+                    <li class="nav-dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">More ▼</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="donate.html" class="dropdown-link">Donate</a></li>
+                            <li><a href="contact.html" class="dropdown-link">Contact Us</a></li>
+                            <li><a href="policies.html" class="dropdown-link">Policies</a></li>
+                        </ul>
+                    </li>   
                 </ul>
             </nav>
             <div class="shop-button">
@@ -37,13 +43,20 @@
     <section class="hero">
         <div class="hero-content">
             <div class="hero-image-placeholder">
-                <img src="Images/Gallery/HomepageImg.png">
+                <img src="Images/Gallery/HomepageImg.png" class="frontPagePicture">
             </div>
             <div class="hero-text">
-                <h1>Empowering youth. Advancing Vaccines.</h1>
-                <p>One page at a time</p>
+                <h1 >Empowering youth. Advancing Vaccines.</h1>
+                <p >One page at a time</p>
+            </div>
+            <div class="button-container">
+                <a href="news.html" class="btn btn-secondary frontPageButton" >Check out what we are doing</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSevP1JmK7v4HQlan1uD3PDked43jm5Y10RQos4bRvhy_KhZ0A/viewform" class="btn btn-secondary frontPageButton" target="_blank">Volunteer Now</a>
+                <a href="about.html" class="btn btn-secondary frontPageButton">Learn More about Us</a>
             </div>
         </div>
+        
+
     </section>
 
     <!-- Our Impact Section -->
@@ -80,8 +93,8 @@
     </section>
 
     <!-- About Us Section -->
-    <section class="about-preview">
-        <div class="container">
+    <section class="about-preview impact">
+        <div class="container impact-box">
             <h2>About MediQuills</h2>
             <p>MediQuills, having published four #1 release children's books out of 32.8M+ books internationally, is a 501(c)(3) nonprofit organization dedicated to enhancing scientific literacy among youth. We aim to provide underprivileged children access to scientific knowledge and promote vaccine access through public policy initiatives with the European Union and United Nations.</p>
             <a href="about.html" class="btn btn-primary">Read More</a>
@@ -105,17 +118,17 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="testimonials-preview">
+    <section class="testimonials-preview impact">
         <div class="container">
             <h2>What People Say</h2>
             <div class="testimonials-carousel">
                 <div class="carousel-container">
-                    <div class="testimonial-slide active">
+                    <div class="testimonial-slide active testimonial-card">
                         <blockquote>
 This is an excellent book and series for kids to introduce how human body works and to explain different functions of body parts.Looks like this is first book from series of books which explains human body and its functions. how human body is affected by sugar and how CPR works are other books from same series.                        </blockquote>
                         <cite>- Ram B</cite>
                     </div>
-                    <div class="testimonial-slide">
+                    <div class="testimonial-slide testimonial-card">
                         <blockquote>
 We thoroughly enjoyed this well-structured book, which kept my kids 8 and 11 year old engaged throughout.
 It sparked our kids' interest in science and human body, making complex concepts fun and easy to understand.
@@ -124,12 +137,12 @@ Kudos to the young author for writing and publishing the series.
                         </blockquote>
                         <cite>- Ayansh</cite>
                     </div>
-                    <div class="testimonial-slide">
+                    <div class="testimonial-slide testimonial-card">
                         <blockquote>
 The thing I liked about this book is, it has so many details on different parts of the brain and how they behave when you dream! Even though it is marked for kids of ages 6 to 12yrs, I would highly recommend this book for any age group who haven’t researched on dreams! Very well written!                        </blockquote>
                         <cite>- Gardener</cite>
                     </div>
-                    <div class="testimonial-slide">
+                    <div class="testimonial-slide testimonial-card`">
                         <blockquote>
 This is a fun and easy-to-understand book that teaches children about the human body. It explains how different parts of our body, like the heart, brain, muscles, and lungs, work in simple language.
 
